@@ -1,0 +1,15 @@
+{% extends "layouts.html" %}
+{% block body %}
+ 
+<div class="card">
+  <div class="card-header">
+      {{ article[3] }}
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ article[1] }}</h5>
+    <p class="card-text">{{ article[2] }}</p>
+    <a href="/articles" class="btn btn-primary">돌아가기</a>
+  </div>
+</div>
+
+{% endblock %}
