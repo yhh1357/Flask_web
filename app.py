@@ -62,7 +62,7 @@ def add_articles():
         cursor.execute(sql, input_data)
         db.commit()
         print(cursor.rowcount)
-        db.close()
+        # db.close()
         return redirect("/articles")
     
     # return "<h1>글쓰기 페이지</h1>"
